@@ -36,7 +36,7 @@ class BitcoinPriceController extends Controller
     }
 
     public function sendRate() {
-        $to = '+2349014745264'; // Phone Number To Send Rates To
+        $to = '+2349019392949'; // Phone Number To Send Rates To
         $bitcoinRate = $this->bitcoinRate();
         $message = "Bitcoin Rate For Today: $bitcoinRate";
 
